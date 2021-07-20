@@ -1,8 +1,5 @@
-cd /brook
-# wget -O brook https://github.com/txthinking/brook/releases/download/v${VERSION}/brook_linux_arm64
-wget -O brook https://github.com/txthinking/brook/releases/download/v${VERSION}/brook
-
-chmod +x /brook/brook
+curl -L https://github.com/txthinking/brook/releases/latest/download/brook_linux_amd64 -o /usr/bin/brook
+chmod +x /usr/bin/brook
 
 ./brook --help
 echo "Hello,the world!"

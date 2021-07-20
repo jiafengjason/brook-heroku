@@ -5,7 +5,7 @@
   "env": {
      "COMMAND": {
        "description": "命令",
-       "value": "ssserver -l :9999 -p password"
+       "value": "server -l :9999 -p password"
      },
      "PASSWORD": {
        "description": "用于加密传输的密码",

@@ -3,13 +3,9 @@
   "description": "Deploy Brook to Heroku.",
   "keywords": ["Brook"],
   "env": {
-     "COMMAND": {
-       "description": "命令",
-       "value": "server -l :9999 -p password"
-     },
      "PASSWORD": {
        "description": "用于加密传输的密码",
-       "value": "brook123456"
+       "value": "password"
      },
      "PORT": {
        "description": "设置监听端口，该地址是客户端需要连接的端口",

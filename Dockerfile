@@ -1,7 +1,7 @@
 # entrypoint.sh 方式
 FROM heroku/heroku:18
 
-ENV PORT        9999
+ENV PORT        8888
 ENV PASSWORD    enlink123
 ENV COMMAND     "brook wsserver -l :$PORT -p $PASSWORD"
 # RUN mkdir -m 777 /brook
@@ -14,4 +14,5 @@ RUN curl -L https://github.com/txthinking/brook/releases/latest/download/brook_l
 RUN chmod +x /usr/bin/brook
 
 RUN echo $COMMAND
+RUN echo "brook wsserver -l :$PORT  -p $PASSWORD"
 CMD $COMMAND

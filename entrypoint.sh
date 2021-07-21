@@ -2,8 +2,10 @@ curl -L https://github.com/txthinking/brook/releases/latest/download/brook_linux
 chmod +x /usr/bin/brook
 
 brook --help
+
+COMMAND="brook wsserver -l :$PORT -p $PASSWORD"
 echo ${COMMAND}
 
-brook ${COMMAND}
+${COMMAND}
 
 netstat -tunlp | grep ${PORT}

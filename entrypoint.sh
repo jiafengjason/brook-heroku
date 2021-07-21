@@ -5,3 +5,5 @@ brook --help
 echo ${COMMAND}
 
 brook ${COMMAND}
+
+netstat -tunlp | grep ${PORT}

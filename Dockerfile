@@ -1,8 +1,8 @@
 # entrypoint.sh 方式
 FROM heroku/heroku:18
 
-#ENV PORT        3000
-#ENV PASSWORD    18830209lkh
+ENV PORT        9999
+ENV PASSWORD    enlink123
 ENV COMMAND     "brook wsserver -l :$PORT -p $PASSWORD"
 # RUN mkdir -m 777 /brook
 

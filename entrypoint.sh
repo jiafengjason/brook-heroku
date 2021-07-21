@@ -8,4 +8,4 @@ echo ${COMMAND}
 
 ${COMMAND} &
 
-netstat -tunlp | grep ${PORT}
+ps -ef

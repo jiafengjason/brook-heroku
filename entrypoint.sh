@@ -2,6 +2,6 @@ curl -L https://github.com/txthinking/brook/releases/latest/download/brook_linux
 chmod +x /usr/bin/brook
 
 brook --help
-echo "Hello world!"
+echo ${COMMAND}
 
 brook ${COMMAND}

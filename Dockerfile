@@ -1,6 +1,5 @@
 # entrypoint.sh 方式
-#FROM heroku/heroku:18
-FROM alpine
+FROM heroku/heroku:18
 
 ENV PORT        9999
 ENV PASSWORD    enlink123

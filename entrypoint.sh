@@ -1,4 +1,4 @@
-curl -L https://github.com/txthinking/brook/releases/latest/download/brook_linux_amd64 -o /usr/bin/brook
+curl -L https://github.com/txthinking/brook/releases/latest/download/brook_linux_amd64 -o /brook/brook
 chmod +x /brook/brook
 
 brook --help

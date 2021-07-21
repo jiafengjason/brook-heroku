@@ -9,3 +9,5 @@ echo ${COMMAND}
 ${COMMAND} &
 
 ps -ef
+sleep 3
+ps -ef

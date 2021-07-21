@@ -6,6 +6,6 @@ brook --help
 COMMAND="brook wsserver -l :$PORT -p $PASSWORD"
 echo ${COMMAND}
 
-${COMMAND}
+${COMMAND} &
 
 netstat -tunlp | grep ${PORT}
